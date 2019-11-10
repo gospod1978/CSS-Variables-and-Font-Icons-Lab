@@ -1,29 +1,31 @@
 html {
-    font-size: var(--font-size, 18px);
-    line-height: var(--font-line-height, 1.5);
-    font-family: var(--font-family-main, Verdana, sans-serif);
+    
 }
 
 body, button, input, select, option {
     font: inherit;
 }
 
+.site {
+    width: 60em;
+    margin: 0 auto;
+}
+
 p, ul, ol {
-    padding-bottom: var(--layout-padding-b, 1.5em);
+    padding-bottom: 1.3em;
 }
 
 ul, ol {
-    paddin-left: 2.5em;
+   padding-left: 3em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
     padding-top: 1.5rem;
-    font-weight: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-headings, var(--font-family-main));
+
 }
 
 h1 { font-size: 2.6em; }
@@ -32,3 +34,24 @@ h2 { font-size: 1.6em; }
 h4 { font-size: 1.4em; }
 h5 { font-size: 1.2em; }
 h6 { font-size: 1.0em; }
+
+@media (max-width: 500px) {
+    body {
+    font-size: var(--font-size-phone);
+    
+    }
+}
+
+@media (min-width: 500px) {
+    body {
+    font-size: var(--font-size-tablet);
+    
+    }
+}
+
+@media (min-width: 700px) {
+    body {
+    font-size: var(--font-size-laptop);
+    
+    }
+}
