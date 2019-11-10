@@ -1,0 +1,41 @@
+body {
+    width: 60em;
+    margin: 0 auto;
+    margin-top: 2em;
+    border: solid 1px var(--font-color-yellow);
+}
+
+.site-section ul {
+    display: flex;
+    color: var(--font-color-primary);
+    overflow: hidden;
+}
+
+li {
+    overflow: hidden;
+}
+
+p {
+    padding-bottom: 1em;
+}
+
+button {
+    font-size: 16px;
+    padding: 0.5em 1em;
+    background-color: var(--font-color-yellow);
+    color: var(--font-color-white);
+    border-radius: 0.5em;
+    border: solid 1px var(--font-color-primary);
+}
+
+button:hover {
+    background-color: var(--font-color-primary);
+    color: var(--font-color-yellow);
+    border: solid 1px var(--font-color-yellow);
+}
+
+
+
+
+
+
