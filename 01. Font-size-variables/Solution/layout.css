@@ -1,0 +1,17 @@
+.site {
+    width: 50em;
+    margin: 0 auto;
+}
+
+.site-header {
+    text-align: center;
+}
+
+h1, h3 {
+    font-style: var(--font-style);
+}
+
+h1 { font-size: var(--font-size-h1); }
+h3 { font-size: var(--font-size-h3); }
+p { font-size: var(--font-size-p); }
+
